@@ -37,20 +37,21 @@ const Hero = () => {
                 </span>
               </p>
             </div>
+          </div>
+          <div className=" flex flex-col w-full gap-6 sm:flex-row items-center ">
+            <Button type="button" title="Download App" variant="btn_green" />
 
-            <div className=" flex flex-col  w-full gap-3 sm:flex-row">
-              <Button type="button" title="Download App" variant="btn_green" />
-
-              <Button
-                type="button"
-                title="How we work"
-                icon="/play.svg"
-                variant="btn_white_text"
-              />
-            </div>
+            <Button
+              type="button"
+              title="How we work"
+              icon="/play.svg"
+              variant="btn_white_text"
+            />
           </div>
         </div>
-        <div className=" relative flex flex-1 items-start">
+
+        {/* App component  */}
+        <div className="relative flex flex-1 items-start">
           <div className=" relative w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 z-20">
             <div className=" flex flex-col">
               <div className="flexBetween">
@@ -73,6 +74,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
+
       </section>
     </>
   );
