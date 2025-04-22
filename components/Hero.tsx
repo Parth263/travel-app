@@ -11,7 +11,7 @@ const Hero = () => {
         <div className=" relative z-20 flex flex-1 flex-col xl:w-1/2">
           <Image src="/camp.svg" alt="camp" width={50} height={50} />
           <h1 className=" bold-52 lg:bold-72">Camp Exotica</h1>
-          <p className=" regular-16 mt-6  text-gray-30 xl:max-[520px]:">
+          <p className=" regular-16 mt-6  text-gray-30 md:max-[520px]:">
             We want to be on each of your journeys seeking the satisfaction of
             seeing the incorruptible beauty of nature. We can help you on an
             adventure around the world in just one app
